@@ -1,0 +1,429 @@
+{
+  "extensionName": {
+    "message": "Bili Pilot"
+  },
+  "extensionDescription": {
+    "message": "Elige el CDN de reproducción de Bilibili y precarga adaptativamente los próximos segmentos DASH sin competir con la reproducción."
+  },
+  "appName": {
+    "message": "Bili Pilot"
+  },
+  "expandPanel": {
+    "message": "Expandir Bili Pilot"
+  },
+  "collapsePanel": {
+    "message": "Contraer Bili Pilot"
+  },
+  "tagline": {
+    "message": "Elige una ruta estable para este vídeo"
+  },
+  "standby": {
+    "message": "En espera"
+  },
+  "compactReadySegments": {
+    "message": "$VALUE_1$ segmentos precargados",
+    "placeholders": {
+      "value_1": { "content": "$1" }
+    }
+  },
+  "compactCdnSelected": {
+    "message": "En uso · $VALUE_1$",
+    "placeholders": {
+      "value_1": { "content": "$1" }
+    }
+  },
+  "compactCdnPinned": {
+    "message": "Fijado · $VALUE_1$",
+    "placeholders": {
+      "value_1": { "content": "$1" }
+    }
+  },
+  "compactSegmentCached": {
+    "message": "Segmento en caché · $VALUE_1$",
+    "placeholders": {
+      "value_1": { "content": "$1" }
+    }
+  },
+  "scanning": {
+    "message": "Analizando"
+  },
+  "currentQuality": {
+    "message": "Calidad actual / Protección de segmentos reales"
+  },
+  "waitingForVideo": {
+    "message": "Esperando al vídeo"
+  },
+  "videoNotDetected": {
+    "message": "Aún no se ha detectado ningún vídeo"
+  },
+  "waitingForRoutes": {
+    "message": "Esperando a que el reproductor proporcione rutas CDN…"
+  },
+  "reloadPage": {
+    "message": "Recargar página"
+  },
+  "automaticRoutingTitle": {
+    "message": "Enrutamiento automático + precarga de segmentos"
+  },
+  "activityLogs": {
+    "message": "Actividad de Bili Pilot"
+  },
+  "checkLogs": {
+    "message": "Ver registros"
+  },
+  "closeLogs": {
+    "message": "Cerrar registros"
+  },
+  "noLogsYet": {
+    "message": "Aún no hay actividad de Bili Pilot."
+  },
+  "activityScanStarted": { "message": "Análisis iniciado" },
+  "activityScanFinished": { "message": "Análisis completado" },
+  "activityScanFailed": { "message": "Análisis fallido" },
+  "activityProbeStarted": {
+    "message": "Probando $VALUE_1$",
+    "placeholders": { "value_1": { "content": "$1" } }
+  },
+  "activityProbeFinished": {
+    "message": "$VALUE_1$ probado",
+    "placeholders": { "value_1": { "content": "$1" } }
+  },
+  "activityRouteSelected": {
+    "message": "Ruta de reproducción cambiada a $VALUE_1$",
+    "placeholders": { "value_1": { "content": "$1" } }
+  },
+  "activityRouteAvoided": {
+    "message": "Evitando $VALUE_1$ temporalmente",
+    "placeholders": { "value_1": { "content": "$1" } }
+  },
+  "activityRouteRescue": {
+    "message": "Usando $VALUE_1$ mientras $VALUE_2$ se recupera",
+    "placeholders": { "value_1": { "content": "$1" }, "value_2": { "content": "$2" } }
+  },
+  "activityPrefetchEnabled": { "message": "Enrutamiento automático y precarga activados" },
+  "activityPrefetchDisabled": { "message": "Enrutamiento automático y precarga desactivados" },
+  "activitySegmentsPlanned": {
+    "message": "$VALUE_1$ segmentos futuros en cola",
+    "placeholders": { "value_1": { "content": "$1" } }
+  },
+  "activityRetrying": { "message": "Reintentando" },
+  "activityCancelled": { "message": "Cancelado" },
+  "activitySegmentPrioritized": { "message": "Se ha priorizado un segmento solicitado por el reproductor" },
+  "activityCacheDelivered": { "message": "Se ha entregado un segmento en caché al reproductor" },
+  "activityTransfer": {
+    "message": "$VALUE_1$ MB en $VALUE_2$ ms",
+    "placeholders": { "value_1": { "content": "$1" }, "value_2": { "content": "$2" } }
+  },
+  "futureSegmentLifecycle": {
+    "message": "Ciclo de vida de los segmentos futuros"
+  },
+  "candidateCdns": {
+    "message": "CDN candidatos"
+  },
+  "routeCount": {
+    "message": "$VALUE_1$ rutas",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "quickScan": {
+    "message": "Análisis rápido"
+  },
+  "deepScan": {
+    "message": "Análisis profundo"
+  },
+  "footer": {
+    "message": "Elige una ruta principal estable; precarga cada segmento futuro desde su CDN más rápido / v$VALUE_1$",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "reprobeSeconds": {
+    "message": "Nuevo sondeo en $VALUE_1$ s",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unavailable": {
+    "message": "No disponible"
+  },
+  "foreground": {
+    "message": "Primer plano"
+  },
+  "downloading": {
+    "message": "Descargando"
+  },
+  "planned": {
+    "message": "Planificado"
+  },
+  "ready": {
+    "message": "Listo"
+  },
+  "retryProgress": {
+    "message": "Reintento $VALUE_1$/$VALUE_2$",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      },
+      "value_2": {
+        "content": "$2"
+      }
+    }
+  },
+  "pending": {
+    "message": "Pendiente"
+  },
+  "selected": {
+    "message": "Seleccionado"
+  },
+  "bilibiliDefault": {
+    "message": "Predeterminado de Bilibili"
+  },
+  "leading": {
+    "message": "En cabeza"
+  },
+  "mostStable": {
+    "message": "Más estable"
+  },
+  "pinned": {
+    "message": "Fijado"
+  },
+  "use": {
+    "message": "Usar"
+  },
+  "floorSpeed": {
+    "message": "Mínimo $VALUE_1$",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingForScan": {
+    "message": "Esperando análisis"
+  },
+  "failureCount": {
+    "message": "$VALUE_1$ fallos",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "openVideo": {
+    "message": "Abre un vídeo de Bilibili para descubrir sus rutas CDN disponibles."
+  },
+  "ttfbTitle": {
+    "message": "TTFB de $VALUE_1$ ms",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "failureRangeUnavailable": {
+    "message": "Rango no disponible"
+  },
+  "failureNetwork": {
+    "message": "Error de red"
+  },
+  "failureSkipped": {
+    "message": "Omitido"
+  },
+  "failureStoppedEarly": {
+    "message": "Detenido antes de tiempo"
+  },
+  "failurePositionUnavailable": {
+    "message": "Posición no disponible"
+  },
+  "failureTimedOut": {
+    "message": "Tiempo de espera agotado"
+  },
+  "failureGeneric": {
+    "message": "Error"
+  },
+  "pageProbeTimedOut": {
+    "message": "Se ha agotado el tiempo del sondeo desde la página"
+  },
+  "extensionUpdated": {
+    "message": "La extensión se ha actualizado. Recarga esta página antes de volver a analizar."
+  },
+  "noRoutesToCompare": {
+    "message": "No hay rutas CDN disponibles para comparar"
+  },
+  "scanningDeep": {
+    "message": "Comprobando uno a uno el inicio y tres posiciones posteriores en cada CDN…"
+  },
+  "scanningAutomatic": {
+    "message": "La reproducción tiene suficiente búfer; comparando automáticamente las rutas principales…"
+  },
+  "scanningQuick": {
+    "message": "Comparando uno a uno el inicio y el punto medio en cada CDN…"
+  },
+  "activeTrackChanged": {
+    "message": "La pista activa ha cambiado; se han descartado los resultados de la pista anterior"
+  },
+  "everyRouteFailed": {
+    "message": "Todas las rutas candidatas han fallado en el análisis"
+  },
+  "winnerHasFailures": {
+    "message": "$VALUE_1$ va en cabeza, aunque algunos rangos muestreados han fallado",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bestRouteTooSlow": {
+    "message": "La mejor ruta solo ha mantenido $VALUE_1$, lo que puede no bastar para $VALUE_2$. Considera bajar la calidad.",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      },
+      "value_2": {
+        "content": "$2"
+      }
+    }
+  },
+  "winnerStable": {
+    "message": "$VALUE_1$ es el más estable, con un mínimo de $VALUE_2$. Haz clic en «Usar» para cambiar.",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      },
+      "value_2": {
+        "content": "$2"
+      }
+    }
+  },
+  "automaticallyPinned": {
+    "message": "$VALUE_1$ se ha fijado automáticamente como ruta principal estable; los segmentos futuros se seguirán precargando",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "candidatesTooClose": {
+    "message": "Los candidatos están demasiado igualados; se mantiene la ruta actual para evitar cambios continuos"
+  },
+  "scanFailed": {
+    "message": "El análisis ha fallado: $VALUE_1$",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "automaticRouteQueued": {
+    "message": "Se ha seleccionado automáticamente una ruta claramente más estable; cambiando en el siguiente segmento…"
+  },
+  "manualRouteQueued": {
+    "message": "Cambio de ruta en cola; cambiando en el siguiente segmento…"
+  },
+  "prefetchEnabled": {
+    "message": "Enrutamiento automático activado: elige una ruta principal estable cuando hay búfer y luego precarga segmento a segmento"
+  },
+  "prefetchDisabled": {
+    "message": "La precarga de segmentos futuros está desactivada; el reproductor seguirá usando directamente el CDN seleccionado"
+  },
+  "pageProbeNoResult": {
+    "message": "El sondeo desde la página no ha devuelto ningún resultado"
+  },
+  "playbackStalling": {
+    "message": "La reproducción está sufriendo parones; volviendo a comprobar las rutas CDN disponibles"
+  },
+  "pinnedTo": {
+    "message": "Ruta fijada en $VALUE_1$",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "foundRoutes": {
+    "message": "Se han encontrado $VALUE_1$ rutas para probar",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "discoveringNewVideo": {
+    "message": "Descubriendo rutas para el nuevo vídeo…"
+  },
+  "selectedNextSegment": {
+    "message": "$VALUE_1$ seleccionado; se usará a partir del siguiente segmento de vídeo sin interrumpir la solicitud actual",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "playerRangeTimedOut": {
+    "message": "Se ha agotado el tiempo de la solicitud Range del reproductor en $VALUE_1$; el siguiente reintento usará otra ruta disponible",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "playerRangeNetworkFailure": {
+    "message": "$VALUE_1$ ha tenido un error de red en la solicitud Range actual del reproductor; el siguiente reintento usará otra ruta disponible",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prefetchUnavailable": {
+    "message": "La precarga no está disponible temporalmente: $VALUE_1$",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cacheHit": {
+    "message": "El reproductor ha usado la caché de precarga; se han entregado $VALUE_1$ MB al instante",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "futureSegmentCached": {
+    "message": "Segmento futuro en caché: $VALUE_1$ / $VALUE_2$ MB",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      },
+      "value_2": {
+        "content": "$2"
+      }
+    }
+  },
+  "currentRoute": {
+    "message": "ruta actual"
+  },
+  "allCdnsFailedTwice": {
+    "message": "Todos los CDN disponibles han fallado dos veces con este segmento; se ha puesto en cuarentena para dejar la red libre a la reproducción"
+  },
+  "allCdnsFailedReprobe": {
+    "message": "Todos los CDN medidos han fallado con este segmento; nuevo sondeo en $VALUE_1$ s",
+    "placeholders": {
+      "value_1": {
+        "content": "$1"
+      }
+    }
+  },
+  "stallDetected": {
+    "message": "Se ha detectado un parón; volviendo a comprobar las rutas CDN disponibles"
+  }
+}
